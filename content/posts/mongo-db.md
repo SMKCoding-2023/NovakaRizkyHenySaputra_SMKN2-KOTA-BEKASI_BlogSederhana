@@ -1,164 +1,49 @@
 ---
-title: "Integrating MongoDB and Mongoose with Nuxt 3"
+title: "Pemenang Tuai Polemik hingga Diselubungi Politik"
 date: 2023-10-06
 draft: false
-tags: ["nuxt", "nuxt3", "mongodb", "mongoose"]
-thumbnail: "/img/mongodb.webp"
+tags: ["mastercheft", "belinda", "mastercheftcurang", "kikijuara1"]
+thumbnail: "/img/1.webp"
 slug: mongo-db
 ---
 
-Building dynamic web applications often requires seamless integration with a robust database solution. When it comes to creating powerful server-side applications, MongoDB has emerged as a popular choice among developers due to its flexibility and scalability. Combined with the Vue.js framework, Nuxt.js provides a solid foundation for building fast, server-rendered applications. However, incorporating MongoDB and its object modeling tool, Mongoose, into a Nuxt project might seem like a daunting task for those new to the stack.
+pemenayangan MasterChef Indonesia musim ke-11 (MCI 11) dipenuhi dengan berbagai babak drama, yang bahkan salah satunya menyentuh ke drama politik.
 
-In this blog post, we'll explore two simple yet effective methods to add MongoDB and Mongoose to your Nuxt 3 project. Whether you're a seasoned developer or just starting your journey in full-stack web development, this guide will help you leverage the capabilities of MongoDB and Mongoose within the Nuxt ecosystem.
+Publik kini mulai melayangkan protes dan boikot terhadap ajang lomba memasak tersebut, salah satunya lantaran dinilai menjadi ajang kampanye politik sosok Ganjar Pranowo.
 
-## Prerequisites
+Bukan cuma itu, publik juga menilai dewan juri yang terdiri atas Arnold Poernomo, Juna Rorimpandey, dan Renatta Moeloek memberikan titel juara ke orang yang salah.
 
-Before we get started, make sure you have a working nuxt 3 project. If you don't have one already, you can create a new project using the following command:
+Mari simak ragam babak drama MasterChef Indonesia ke-11.
 
-```bash
-npx nuxi init <project-name>
-```
+## Publik protes Belinda tak layak jadi juara
 
-Once the project is created, navigate to the project directory and install the dependencies:
+<iframe loading="lazy" style="border: 0; top: 0; left: 0; width: 100%; height: 350px;" src="https://media.arkadia.me/v2/articles/souparmand/MY5guYmkB8vIHwNnq8MSh7YwsLECY049.png" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br />
 
-```bash
-cd <project-name>
-npm install // or yarn install
-```
+MasterChef Season 11 dimenangkan oleh Belinda Christina yang memenangkan grand final melawan Rizkisyah Putra Singarimbun alias Kiki pada Sabtu (25/11/2023) dan Minggu (26/11/2023).
 
-Now that we have a working nuxt 3 project, let's explore the two methods of adding MongoDB and Mongoose to our project.
+Alih-alih ucapan selamat, publik menyambut kemenangan Belinda dengan sederet protes.
+Jagat media sosial kini dipenuhi dengan aksi protes yang menyerukan bahwa Belinda tak layak menyandang gelar juara 1 MCI 11. Publik menilai bahwa Kiki yang lebih mumpuni dan pantas untuk mendapatkan gelar juara.
 
-## Method 1: Using the nuxt-server-utils module
+Sebab, Belinda dinilai banyak melakukan blunder atau kesalahan dalam grand final itu.
 
-This is the easiest way to add MongoDB and Mongoose to your Nuxt 3 project. The [nuxt-server-utils](https://nuxt-server-utils.jahid.dev) module provides a set of utilities that allow you to interact with your MongoDB database from within your Nuxt 3 application. It also provides a simple API for creating and managing your MongoDB collections.
+Belinda sempat disorot gegara tak memperhatikan detil, tak seperti Kiki dalam proses penyajian. 
 
-To get started, install the nuxt-server-utils module using the following command:
+Selain itu, Kiki juga sempat membantu Belinda memotong daging padahal keduanya sedang bertanding untuk adu skill.
 
-```bash [npm]
-npm install nuxt-server-utils mongoose
-```
+<i>"Kecewa sama program MCI 11 Bukan karena fans Kiki, tapi memang bukti jelas progress si Kiki bagaimana. Salut sama Kiki yang selalu berpositif thinking dan selalu humble," bunyi salah satu komentar publik di jagat media sosial.</i>
 
-Next, Add the nuxt-server-utils module to the `modules` section of your `nuxt.config.ts` file:
+### Penonton Geram ada Ganjar di MCI, berujung boikot
 
-Add `nuxt-server-utils` to the `modules` section of `nuxt.config.ts`:
+<iframe loading="lazy" style="border: 0; top: 0; left: 0; width: 100%; height: 400px;" src="https://media.arkadia.me/v2/articles/souparmand/E0rMyg8JpYL6B4wFAHTAfUb6p9xXQdYr.png" scrolling="" allowfullscreen="allowfullscreen"></iframe>
 
-```ts [nuxt.config.ts]
-export default defineNuxtConfig({
-  // ...
-  modules: ["nuxt-server-utils"],
-});
-```
+Publik juga dibuat emosi ketika MasterChef Indonesia musim ke-11 juga menghadirkan sosok capres dari PDI Perjuangan, Ganjar Pranowo.
 
-Finally, add the MongoDB connection string to the `.env` file of your nuxt app:
+Kehadiran Ganjar dinilai tak etis lantaran publik kukuh bahwa MCI bukan ajang politik.
 
-```bash [.env]
-MONGODB_URI=<your-mongodb-connection-string>
-```
+Ganjar hadir dalam ajang tersebut untuk secara langsung memberikan hadiah utama pada Belinda sebagai juara pertama.
 
-That's it! Now you can use mongoose in your Nuxt 3 server routes like how it is normally used in Express.
-For example, let's create a simple server route that returns all the documents from a MongoDB collection:
+Sontak, publik menuangkan emosi mereka dan menyerukan untuk memboikot MCI 11.
 
-**Defining the Mongoose model** in `server/models/user.model.ts`:
+Tak tanggung-tanggung, publik juga mengadu ke MasterChef World selaku pemegang lisensi MasterChef lantaran MasterChef Indonesia menjadikan acara masak bergengsi ini sebagai lahan politik.
 
-```ts [server/models/User.ts]
-import { Schema, model } from "mongoose";
-
-const UserSchema = new Schema({
-  name: String,
-  email: String,
-});
-
-export const User = model("User", UserSchema);
-```
-
-Now let's create the **API Route** in `server/api/users.get.ts`:
-
-```ts [server/api/users.get.ts]
-import { User } from "~~/server/models/user.model";
-
-export default defineEventHandler(async (event) => {
-  const users = await User.find();
-
-  return Users;
-});
-```
-
-If you navigate to the `/api/users` route, you should see a list of all the users in your database.
-
-### Video Tutorial
-
-If you enjoy learning through video tutorials, I have created a video where i walk you through the above steps:
-
-<iframe loading="lazy" style="border: 0; top: 0; left: 0; width: 100%; height: 350px;" src="https://www.youtube.com/embed/h10sAu3ETr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-### Example Project
-
-<iframe loading="lazy" style="border: 0; top: 0; left: 0; width: 100%; height: 500px;" src="https://stackblitz.com/edit/nuxt-server-utils?ctl=1&embed=1&file=nuxt.config.ts&hideNavigation=1" scrolling="" allowfullscreen="allowfullscreen"></iframe>
-
-## Method 2: Creating a Nitro plugin
-
-Nuxt 3 uses [Nitro](https://nitro.unjs.io/) under the hood to power its server-side rendering capabilities. Nitro provides a simple API for creating plugins that can be used to extend the functionality of your Nuxt 3 application.
-In this section, we'll create a Nitro plugin that will allow us to use MongoDB and Mongoose in our Nuxt 3 project.
-
-First, let's create a new plugin file in the `server/plugins` directory:
-
-```bash
-touch server/plugins/mongodb.ts
-```
-
-Then let's install the required dependencies:
-
-```bash
-npm install mongoose
-```
-
-Next, let's add the following code to the newly created plugin file:
-
-```ts [server/plugins/mongodb.ts]
-import { Nitro } from "nitropack";
-import mongoose from "mongoose";
-
-export default async (_nitroApp: Nitro) => {
-  const config = useRuntimeConfig();
-
-  try {
-    await mongoose.connect(config.mongodbUri);
-    console.log("Connected to MongoDB");
-  } catch (e) {
-    console.error(e);
-  }
-};
-```
-
-Finally, let's add the plugin to the `plugins` section of our `nuxt.config.ts` file:
-
-```ts [nuxt.config.ts]
-export default defineNuxtConfig({
-  // ...
-  nitro: {
-    plugins: ["~/server/plugins/mongodb.ts"],
-  },
-});
-```
-
-That's it! Now you can use mongoose in your Nuxt 3 server routes like how it is normally used in Express.
-
-### Video Tutorial
-
-If you prefer video tutorials, you can watch the following video where I walk you through the process of adding MongoDB and Mongoose to a Nuxt 3 project:
-
-<iframe loading="lazy" style="border: 0; top: 0; left: 0; width: 100%; height: 350px;" src="https://www.youtube.com/embed/EidO0c9L6b0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-### Example Project
-
-Play around with the example project to get a better understanding of how to use MongoDB and Mongoose with Nuxt 3.
-
-<iframe loading="lazy" style="border: 0; top: 0; left: 0; width: 100%; height: 500px;" src="https://stackblitz.com/github/jahidanowar/nuxt3-mongoose?ctl=1&embed=1&file=nuxt.config.ts&hideNavigation=1&theme=dark&view=editor" scrolling="" allowfullscreen="allowfullscreen"></iframe>
-
-You ca find the full source code of this example [here](https://github.com/jahidanowar/nuxt3-mongoose).
-
-## Conclusion
-
-In this blog post, we explored two simple yet effective methods to add MongoDB and Mongoose to your Nuxt 3 project. Whether you're a seasoned developer or just starting your journey in full-stack web development, this guide will help you leverage the capabilities of MongoDB and Mongoose within the Nuxt ecosystem.
-
-If you have any questions or feedback, feel free to reach out to me on [Discord](https://jahid.dev/d) or [Twitter](https://twitter.com/jahidDev).
+<i>“Tolong hapus lisensi MasterChef untuk MasterChef Indonesia, acara itu sudah menjadi acara politik,” adu seorang warganet di kanal Instagram MasterChef World.</i>

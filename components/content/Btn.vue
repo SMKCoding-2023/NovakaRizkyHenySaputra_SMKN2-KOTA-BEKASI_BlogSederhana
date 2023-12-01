@@ -2,6 +2,7 @@
 
 <template>
   <button class="py-2 px-4 bg-white rounded-xl border my-2">
+    <NuxtLink to="contact">Contact</NuxtLink>
     <slot></slot>
   </button>
 </template>

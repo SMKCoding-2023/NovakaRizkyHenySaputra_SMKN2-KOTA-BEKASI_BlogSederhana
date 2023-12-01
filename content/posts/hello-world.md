@@ -1,28 +1,47 @@
 ---
-title: "Hello World"
+title: "Dianggap Tak Layak Jadi Juara MasterChef Indonesia Season 11"
 date: 2023-10-05
 draft: false
-tags: ["hello", "world"]
-thumbnail: "/img/hello-world.jpg"
+tags: ["belindajuara", "mastercheftindonesia"]
+thumbnail: "/img/perjalana-oooooooooi.jpg"
 slug: hello-world
 ---
 
-Hello World!
-
-```js
-console.log("Hello World!");
-```
-
+Dianggap Tak Layak Jadi Juara MasterChef Indonesia Season 11, Belinda Anggap Ini Sebagai Pelajaran
 ---
 
 ::btn
-The content of the card
 ::
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat venenatis libero. Suspendisse ullamcorper lacus ut urna euismod, ac ullamcorper leo dapibus. Integer sapien felis, porttitor eu erat vel, tempus faucibus dolor. Nulla convallis elementum dolor, non vestibulum est pretium at. Morbi eu tortor in odio tincidunt rutrum. Nunc hendrerit libero commodo tortor facilisis, nec blandit nulla consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc viverra tortor blandit, ullamcorper nunc nec, finibus massa. Nunc sit amet sapien vitae tellus rutrum pellentesque. Morbi ornare nec sem in elementum. Vestibulum maximus neque sed nisi malesuada laoreet. Integer nec augue ut mi mattis dapibus vitae non mi. Nullam sit amet sagittis urna, sit amet rhoncus leo.
+Belinda yang kala itu berduel dengan Kiki di babak grand final dianggap tak pantas menang.
+Hal ini karena publik menilai jika secara skill memasak dan hasil yang disajikan kepada dewan juri itu lebih bagus punya Kiki.
+Namun, juri memutuskan jika Belinda menjadi pemenang pada ajang tersebut dengan mendapatkan 1.867 poin. Sedangkan Kiki memperoleh 1.857 poin.
+Selisih poin keduanya sangatlah tipis yakni hanya 10 poin saja.
+Akibatnya, Kiki harus puas menduduki posisi sebagai runner-up.
 
-Nulla facilisi. Duis tincidunt erat eros, ac molestie mi malesuada nec. Curabitur tincidunt ullamcorper purus eu condimentum. Aenean hendrerit, massa egestas vehicula semper, metus nisi vehicula massa, non volutpat ex dui et est. Donec suscipit tellus sed sem scelerisque accumsan. Sed ac consequat nibh. Proin condimentum pulvinar neque. Ut tincidunt sem non nulla rhoncus, a laoreet urna scelerisque. Proin nec venenatis sapien. Suspendisse quam felis, tincidunt in ex vel, aliquam luctus nibh. Nulla at sapien venenatis, tempor dolor in, elementum nulla. Cras at nunc mi. Vivamus sagittis, enim a aliquet condimentum, orci nunc suscipit nisi, a sollicitudin massa velit sit amet elit. Suspendisse potenti. Nulla placerat tortor sit amet odio ultricies, quis blandit nisl gravida.
+<iframe loading="lazy" style="border: 0; top: 0; left: 0; width: 100%; height: 350px;" src="https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/Mengen-00000000000000000.jpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Aliquam erat volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla bibendum sem ac sem vulputate sollicitudin. Nunc eget molestie massa, eu vulputate lorem. Quisque quis urna vel massa lacinia consectetur. Duis sagittis massa id tellus hendrerit euismod. Nunc euismod sapien eget pulvinar egestas. Ut scelerisque eleifend diam, quis ultrices tellus ultrices id. Phasellus eget tellus varius, tincidunt elit id, placerat ipsum. Nullam a vulputate sapien. Nunc consectetur lacinia lobortis. Sed in ultrices diam. Proin est velit, posuere ut pellentesque sit amet, facilisis nec quam.
+### Respons Belinda
 
-Nullam nec sem ut mi ullamcorper sollicitudin. Nulla nec diam elit. Nullam vitae maximus massa, bibendum malesuada nunc. Nam quis tincidunt ante, et rhoncus nisi. Phasellus dictum dictum feugiat. Integer placerat at erat at aliquam. Donec et nibh vitae nisl molestie hendrerit. In tincidunt et turpis sit amet maximus. Cras vel viverra leo. Mauris non euismod metus. Maecenas ullamcorper in justo id condimentum. Vestibulum ultricies pellentesque lorem. Sed malesuada iaculis pharetra.
+Melihat kontroversi yang terjadi di media sosial, Belinda Christina tak tinggal diam.
+
+Ia mengungkapkan perasaannya terkait hal tersebut.
+
+“Syok, nggak nyangka bakal kayak gini,” kata Belinda saat ditemui di kawasan Tendean, Jakarta Selatan, Rabu (29/11/2023).
+
+Protes ini membuatnya diselimuti rasa takut, mengingat Belinda orang yang baru terjun di dunia hiburan Tanah Air.
+
+Sebab namanya viral dan menjadi pembicaraan di media sosial usai memenangkan MasterChef Indonesia Musim 11.
+
+“Takut sih ada ya, karena kan baru di dunia entertainment,” ujar Belinda dikutip dari TribunJatim.com.
+
+Namun Belinda berusaha untuk bisa melewati semua kontroversi yang ada.
+
+Ia ingin mengambil pembelajaran dari hal tersebut untuk ke depannya.
+
+Tidak hanya timbulnya pro dan kontra, berarti menurut Belinda banyak masyarakat yang menyaksikan tayangan MasterChef Indonesia.
+
+“Tapi ya buat pelajaran aja,” ucap Belinda.
+
+Setelah berkarir di ajang MasterChef Indonesia, Belinda kemudian ingin segera menyelesaikan pendidikan dan berkeliling Indonesia untuk mencari ilmu baru.
+
